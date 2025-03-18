@@ -123,7 +123,7 @@ The script should work in shells: bash, zsh.
 
 ## Context
 
-For my self-hosted photo storage I use PiGallery2 and Immich. They are awesome, really! In particular, they work with face metadata.
+For my self-hosted photo storage I use [PiGallery2](https://github.com/bpatrik/pigallery2/) and [Immich](https://github.com/immich-app/immich). They are awesome, really! In particular, they work with face metadata.
 At some point I ran face detection and recognition (Digikam/Mylio) and saved the faces metadata to XMP sidecars. Recently, while viewing the photos in PiGallery2 and Immich I noticed that some face thumbnails actually do not contain faces; instead they are kind of a random piece of a photo. Only photos in vertical/portrait orientation are affected. So what happened? Why wrong face regions in vertical orientation?
 Turns out that both apps do not rotate the face regions while correctly rotating the image itself (according to its EXIF orientation). Though underlying issues were quite different:
 
@@ -148,4 +148,4 @@ Side note: similar issues may arise when applying other operations, such as crop
 - https://bugs.kde.org/show_bug.cgi?id=455876 Handling of image orientation in modern image formats using ExifTool (Digikam fixed issue)
 - https://bugs.kde.org/show_bug.cgi?id=429219 MWG "Applied To" state (mwg-rs:AppliedToDimensions XMP tag) is not included when writing Face metadata to file - Use ExifTool (Digikam fixed issue)
 - https://github.com/recurser/exif-orientation-examples EXIF Orientation-flag example images
-- https://github.com/immich-app/test-assets/pull/7 the base image with face regions courtesy of @bugfest
+- https://github.com/immich-app/test-assets/pull/7 the base image with face regions courtesy of [@bugfest](https://www.github.com/bugfest)
