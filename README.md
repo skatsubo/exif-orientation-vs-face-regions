@@ -30,9 +30,9 @@ Use case 2. Handling of the Orientation tag alone (ignoring the faces/regions st
 
 On the left: correct face regions for [photo.6.embedded.jpg](./images/photo.6.embedded.jpg) with orientation `6` and orientation+regions metadata defined in the image only.
 
-On the right: misplaced face regions for [photo.6.embedded_sidecar.jpg](./images/photo.6.embedded_sidecar.jpg) with orientation `6` and orientation+regions metadata defined both in the image and the sidecar [photo.6.embedded_sidecar.jpg.xmp](./images/photo.6.embedded_sidecar.jpg.xmp).
+On the right: mispositioned face regions for [photo.6.embedded_sidecar.jpg](./images/photo.6.embedded_sidecar.jpg) with orientation `6` and orientation+regions metadata defined both in the image and the sidecar [photo.6.embedded_sidecar.jpg.xmp](./images/photo.6.embedded_sidecar.jpg.xmp).
 
-![Correct and misplaced face regions](doc/test-images-in-app.png)
+![Correct and mispositioned face regions](doc/test-images-in-app.png)
 
 ### EXIF/XMP
 
@@ -148,3 +148,4 @@ Side note: similar issues may arise when applying other operations, such as crop
 - https://bugs.kde.org/show_bug.cgi?id=455876 Handling of image orientation in modern image formats using ExifTool (Digikam fixed issue)
 - https://bugs.kde.org/show_bug.cgi?id=429219 MWG "Applied To" state (mwg-rs:AppliedToDimensions XMP tag) is not included when writing Face metadata to file - Use ExifTool (Digikam fixed issue)
 - https://github.com/recurser/exif-orientation-examples EXIF Orientation-flag example images
+- https://github.com/immich-app/test-assets/pull/7 the base image with face regions courtesy of @bugfest
