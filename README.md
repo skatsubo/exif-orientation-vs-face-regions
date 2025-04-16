@@ -127,8 +127,8 @@ For my self-hosted photo storage I use [PiGallery2](https://github.com/bpatrik/p
 At some point I ran face detection and recognition (Digikam/Mylio) and saved the faces metadata to XMP sidecars. Recently, while viewing the photos in PiGallery2 and Immich I noticed that some face thumbnails actually do not contain faces; instead they are kind of a random piece of a photo. Only photos in vertical/portrait orientation are affected. So what happened? Why wrong face regions in vertical orientation?
 Turns out that both apps do not rotate the face regions while correctly rotating the image itself (according to its EXIF orientation). Though underlying issues were quite different:
 
-- Immich (v1.129.0) does not take EXIF orientation into account when loading/processing the region metadata
-- PiGallery2 (2.0.3-edge c5c7df0) correctly rotates the image and face regions according to the EXIF `IFD0:Orientation` tag. But it works only for embedded metadata. When loading face regions from XMP sidecar, orientation is ignored and face regions are not rotated, thus causing discrepancy with the rotated image.
+- **Immich** (v1.131.3) does not take EXIF orientation into account when loading/processing the region metadata. Issue: https://github.com/immich-app/immich/issues/12440
+- **PiGallery2** (2.0.3-edge c5c7df0) correctly rotates the image and face regions according to the EXIF `IFD0:Orientation` tag. But it works only for embedded metadata. When loading face regions from XMP sidecar, orientation is ignored and face regions are not rotated, thus causing discrepancy with the rotated image. Issue: https://github.com/bpatrik/pigallery2/issues/979
 
 ## Metadata guidelines
 
