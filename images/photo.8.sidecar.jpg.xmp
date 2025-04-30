@@ -8,30 +8,30 @@
   xmlns:stDim='http://ns.adobe.com/xap/1.0/sType/Dimensions#'>
   <mwg-rs:Regions rdf:parseType='Resource'>
    <mwg-rs:AppliedToDimensions rdf:parseType='Resource'>
-    <stDim:h>700</stDim:h>
+    <stDim:h>840</stDim:h>
     <stDim:unit>pixel</stDim:unit>
-    <stDim:w>840</stDim:w>
+    <stDim:w>700</stDim:w>
    </mwg-rs:AppliedToDimensions>
    <mwg-rs:RegionList>
     <rdf:Bag>
      <rdf:li rdf:parseType='Resource'>
       <mwg-rs:Area rdf:parseType='Resource'>
-       <stArea:h>0.11</stArea:h>
+       <stArea:h>0.113095</stArea:h>
        <stArea:unit>normalized</stArea:unit>
-       <stArea:w>0.20</stArea:w>
-       <stArea:x>0.69</stArea:x>
-       <stArea:y>0.37</stArea:y>
+       <stArea:w>0.198571</stArea:w>
+       <stArea:x>0.692143</stArea:x>
+       <stArea:y>0.368452</stArea:y>
       </mwg-rs:Area>
       <mwg-rs:Name>Marie Curie</mwg-rs:Name>
       <mwg-rs:Type>Face</mwg-rs:Type>
      </rdf:li>
      <rdf:li rdf:parseType='Resource'>
       <mwg-rs:Area rdf:parseType='Resource'>
-       <stArea:h>0.10</stArea:h>
+       <stArea:h>0.0964286</stArea:h>
        <stArea:unit>normalized</stArea:unit>
-       <stArea:w>0.24</stArea:w>
-       <stArea:x>0.76</stArea:x>
-       <stArea:y>0.69</stArea:y>
+       <stArea:w>0.241429</stArea:w>
+       <stArea:x>0.760714</stArea:x>
+       <stArea:y>0.6875</stArea:y>
       </mwg-rs:Area>
       <mwg-rs:Name>Pierre Curie</mwg-rs:Name>
       <mwg-rs:Type>Face</mwg-rs:Type>
