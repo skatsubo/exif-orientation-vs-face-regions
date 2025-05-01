@@ -51,27 +51,27 @@ exiftool -struct -j -a -G1 -Orientation -RegionInfo \
   "IFD0:Orientation": "Rotate 90 CW",
   "XMP-mwg-rs:RegionInfo": {
     "AppliedToDimensions": {
-      "H": 700,
+      "H": 840,
       "Unit": "pixel",
-      "W": 840
+      "W": 700
     },
     "RegionList": [{
       "Area": {
-        "H": 0.11,
+        "H": 0.113095,
         "Unit": "normalized",
-        "W": 0.20,
-        "X": 0.31,
-        "Y": 0.63
+        "W": 0.198571,
+        "X": 0.307857,
+        "Y": 0.631548
       },
       "Name": "Marie Curie",
       "Type": "Face"
     },{
       "Area": {
-        "H": 0.10,
+        "H": 0.0964286,
         "Unit": "normalized",
-        "W": 0.24,
-        "X": 0.24,
-        "Y": 0.31
+        "W": 0.241429,
+        "X": 0.239286,
+        "Y": 0.3125
       },
       "Name": "Pierre Curie",
       "Type": "Face"
@@ -83,27 +83,27 @@ exiftool -struct -j -a -G1 -Orientation -RegionInfo \
   "XMP-tiff:Orientation": "Rotate 90 CW",
   "XMP-mwg-rs:RegionInfo": {
     "AppliedToDimensions": {
-      "H": 700,
+      "H": 840,
       "Unit": "pixel",
-      "W": 840
+      "W": 700
     },
     "RegionList": [{
       "Area": {
-        "H": 0.11,
+        "H": 0.113095,
         "Unit": "normalized",
-        "W": 0.20,
-        "X": 0.31,
-        "Y": 0.63
+        "W": 0.198571,
+        "X": 0.307857,
+        "Y": 0.631548
       },
       "Name": "Marie Curie",
       "Type": "Face"
     },{
       "Area": {
-        "H": 0.10,
+        "H": 0.0964286,
         "Unit": "normalized",
-        "W": 0.24,
-        "X": 0.24,
-        "Y": 0.31
+        "W": 0.241429,
+        "X": 0.239286,
+        "Y": 0.3125
       },
       "Name": "Pierre Curie",
       "Type": "Face"
